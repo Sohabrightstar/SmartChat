@@ -1,0 +1,1 @@
+[System.IO.File]::WriteAllLines(".gitignore", @(".env", ".venv/", "__pycache__/"))
